@@ -1,1 +1,22 @@
-
+.flickity-Section{}
+.flickity-Container{
+    position: relative;
+}
+.flickity-Container img{
+    width: 1100px;
+    height: 100px;
+    display: inline-block;
+    border: 0;
+}
+#fImg1{
+    position: absolute;
+    right: 0%;
+}
+#fImg2{
+    position: absolute;
+    right: 22.67%;
+}
+#fImg3{
+    position: absolute;
+    right: 34%;
+}
