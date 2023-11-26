@@ -10,13 +10,13 @@
 }
 #fImg1{
     position: absolute;
-    right: 0%;
+    left: 0%;
 }
 #fImg2{
     position: absolute;
-    right: 22.67%;
+    left: 40%;
 }
 #fImg3{
     position: absolute;
-    right: 34%;
+    left: 80%;
 }
