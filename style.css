@@ -1,12 +1,21 @@
-.flickity-Section{}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.flickity-Section{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
 .flickity-Container{
     position: relative;
+    height: 600px;
 }
 .flickity-Container img{
-    width: 1100px;
-    height: 500px;
+    width: 50%;
     display: inline-block;
     border: 0;
+    height: 600px;
 }
 #fImg1{
     position: absolute;
@@ -14,9 +23,60 @@
 }
 #fImg2{
     position: absolute;
-    left: 60%;
+    left: 50%;
 }
 #fImg3{
     position: absolute;
-    left: 120%;
+    left: 100%;
+}
+#fImg4{
+    position: absolute;
+    left: 150%;
+}
+#fImg5{
+    position: absolute;
+    left: 200%;
+}
+.isSelected{
+    border: 2px solid #000 ;
+}
+.flickity-Btn{}
+.prev, .next{
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    right: 0;
+}
+.prev{
+    left: 0;
+}
+.prev:hover, .next:hover{
+    border-radius: 50%;
+    background-color:rgba(4,4,4,.6);
+}
+.prev:disabled, .next:disabled{
+    display: none;
+}
+.pageDot-Container{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    text-align: center;
+}
+.pageDot{
+    width: 30px;
+    height: 8px;
+    cursor: pointer;
+    background-color: #000;
+    display: inline-block;
+}
+.pageDot .active{
+    background-color: #000;
 }

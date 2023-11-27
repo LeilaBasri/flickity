@@ -9,9 +9,20 @@
 <body>
     <section class="flickity-Section">
         <div class="flickity-Container">
-            <img id="fImg1" src="Images/1.jpeg">
-            <img id="fImg2" src="Images/2.jpeg">
-            <img id="fImg3" src="Images/5.jpeg">
+            <div class="flickty-Cell">
+                <img id="fImg1" class="flickity-Image" src="Images/1.jpeg">
+                <img id="fImg2" class="flickity-Image" src="Images/2.jpeg">
+                <img id="fImg3" class="flickity-Image" src="Images/5.jpeg">
+            </div>
+        </div>
+        <div class="flickity-Btn">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="pageDot-Container">
+            <span class="pageDot active"></span>
+            <span class="pageDot"></span>
+            <span class="pageDot"></span>
         </div>
     </section>
 </body>
